@@ -1,0 +1,46 @@
+table{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.2);
+}
+th,td{
+    text-align: start;
+    font-size: 20px;
+    padding: 15px;
+}
+tr{
+    border: solid#d7dbdd 1.5px;
+}
+th{
+    font-weight: bold;
+    background-color: rgba(37, 153, 16, 0.904);
+}
+button{
+    height: 40px;
+    width: 60px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: none;
+    margin: 4px;
+    
+    
+}
+.Edit{
+    background-color: rgb(57, 137, 218);
+    color: #fff;
+}
+.Delete{
+    background-color: red;
+    color: #fff;
+    width: 80px;
+
+}
+.ViewDetails{
+    background-color: rgb(243, 197, 71);
+    color: #fff;
+    width: 120px;
+}
